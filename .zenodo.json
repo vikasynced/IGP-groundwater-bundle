@@ -1,0 +1,37 @@
+{
+  "title": "IGP Groundwater Study — Reproducibility Bundle (v5.1)",
+  "description": "<p>Complete Python analysis pipeline for the manuscript <em>'Long-term groundwater depletion across the Upper Indo-Gangetic Plain: GRACE/GRACE-FO observations 2002-2023, depth-stratified well-network analysis, and Monte Carlo uncertainty quantification'</em>, submitted to Water Resources Research.</p><p>The bundle reproduces the headline results of the manuscript from raw NASA GRACE/GRACE-FO mascon data, GLDAS-2.1 Noah land-surface model output, MODIS MOD16A2GF evapotranspiration, CHIRPS v3.0 rainfall, and the Central Ground Water Board of India well network: a -34.86 mm/yr groundwater storage trend (Theil-Sen 95% CI: +/-1.03 mm/yr), within-JPL/GLDAS structural uncertainty of +/-0.32 mm/yr from a 2000-iteration Monte Carlo over five error sources, combined quadrature uncertainty of +/-1.08 mm/yr, cumulative loss of approximately 413 km^3 over 22 years, and a primary change-point in August 2015 robust across three GWS variants.</p><p>The bundle is scripts-only: raw input data is not redistributed because each underlying dataset has its own license and acquisition pathway. The README documents how to obtain each input.</p><p>Eighteen Python scripts: seven upstream pipeline scripts (numbered 01-07) that read raw data and produce intermediate CSVs; eight analysis scripts (R1-R4, R6-R9; there is no R5) that produce the manuscript tables and intermediate figures; and one figure-generator script (F) that produces the 12 manuscript figures. Vectorised SSA decomposition, gap-filling via iterative SSA at L=60, Theil-Sen rank-based regression, Pettitt and Buishand and ruptures change-point detection, and full Monte Carlo trend uncertainty propagation.</p>",
+  "creators": [
+    {
+      "name": "Kumar, Vikash",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "groundwater depletion",
+    "GRACE",
+    "GRACE-FO",
+    "Indo-Gangetic Plain",
+    "Singular Spectrum Analysis",
+    "Monte Carlo uncertainty",
+    "remote sensing hydrology",
+    "Theil-Sen regression",
+    "Mann-Kendall trend test",
+    "change-point detection",
+    "reproducibility bundle"
+  ],
+  "language": "eng",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "5.1.0",
+  "communities": [],
+  "related_identifiers": [
+    {
+      "identifier": "10.1029/2008WR007645",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "The DOI of the corresponding manuscript will be added as a related identifier (relation: 'isSupplementTo') after acceptance at Water Resources Research."
+}
