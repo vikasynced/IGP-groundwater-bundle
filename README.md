@@ -262,4 +262,4 @@ cite the manuscript above for the scientific results.
 Vikash Kumar — vikasynced@gmail.com — Independent Researcher.
 
 For bug reports specific to this code, please open an issue on the GitHub
-repository (URL to be added when published).
+repository (https://github.com/vikasynced/IGP-groundwater-bundle)
