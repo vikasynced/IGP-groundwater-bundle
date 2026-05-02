@@ -34,5 +34,5 @@
       "scheme": "doi"
     }
   ],
-  "notes": "The DOI of the corresponding manuscript will be added as a related identifier (relation: 'isSupplementTo') after acceptance at Water Resources Research."
+  "notes": "Code DOI: https://doi.org/10.5281/zenodo.19966722. The manuscript DOI will be added as a related identifier (isSupplementTo) after acceptance at Water Resources Research."
 }
