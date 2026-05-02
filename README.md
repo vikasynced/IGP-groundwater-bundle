@@ -246,7 +246,7 @@ and the deposited code:
 > Indo-Gangetic Plain. *Water Resources Research*. (DOI to be assigned)
 
 > Kumar, V. (2026). IGP Groundwater Study — Reproducibility Bundle (v5.1).
-> Zenodo. (DOI to be assigned upon deposit)
+> Zenodo. https://doi.org/10.5281/zenodo.19966722
 
 ---
 
